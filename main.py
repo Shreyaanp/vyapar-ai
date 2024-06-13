@@ -5,6 +5,11 @@ import uvicorn
 import json
 import time
 from prodAI import process_prompt
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 
 app = FastAPI()
 
